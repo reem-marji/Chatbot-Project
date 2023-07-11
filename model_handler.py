@@ -1,16 +1,6 @@
-# import os
-# import pinecone
-# from langchain.llms import OpenAI
-# from langchain import PromptTemplate, LLMChain
-# from langchain.chains import ConversationChain
-# from langchain.chains.conversation.memory import ConversationBufferMemory
 from cryptography.fernet import Fernet
-# from vector_store import intialize_vector_store
-# from langchain.vectorstores import Pinecone
-# from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
-# from vector_store import intialize_vector_store
 
 index_name = 'v1-index-pinecone'
 text_field = "text"
